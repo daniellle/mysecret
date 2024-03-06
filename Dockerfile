@@ -2,7 +2,6 @@ FROM --platform=linux/amd64 golang:latest AS build-env
 WORKDIR /go/src
 
 COPY go.mod ./
-COPY go.sum ./
 RUN go mod tidy
 
 COPY . . 

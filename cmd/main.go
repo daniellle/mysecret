@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+	fmt.Println("starting server")
 	http.HandleFunc(
 		"/",
 		func(w http.ResponseWriter, req *http.Request) {

@@ -1,0 +1,3 @@
+[submodule "secret-project"]
+  path = secret-project
+  url = https://github.com/p13pinheiro/secretproject.git

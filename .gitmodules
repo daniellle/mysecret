@@ -1,3 +1,3 @@
-[submodule "secret-project"]
-  path = secret-project
+[submodule "secretproject"]
+  path = secretproject
   url = https://github.com/p13pinheiro/secretproject.git

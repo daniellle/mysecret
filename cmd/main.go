@@ -4,10 +4,13 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+
+	"github.com/daniellle/mysubmodule"
 )
 
 func main() {
 	fmt.Println("starting server")
+	mysubmodule.SubmoduleProcess()
 	http.HandleFunc(
 		"/",
 		func(w http.ResponseWriter, req *http.Request) {

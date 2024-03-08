@@ -12,7 +12,7 @@ func main() {
 		"/",
 		func(w http.ResponseWriter, req *http.Request) {
 			fmt.Println("pod hit")
-			fmt.Fprintf(w, "hello\n")
+			fmt.Fprintf(w, "hello NEW Version \n")
 		},
 	)
 
